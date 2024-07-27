@@ -1,0 +1,23 @@
+{
+    "218": {
+        "name": "SAI",
+        "mobile": "98",
+        "bal": 9000,
+        "pass": "a",
+        "tran": [
+            "2024-07-27 15:03:46.263582 deposit 10000,balance = 10000",
+            "2024-07-27 15:03:46.263582 withdraw 500,balance = 9500",
+            "2024-07-27 15:03:46.266207 transfer to SAM, 500,balance = 9000"
+        ]
+    },
+    "426": {
+        "name": "SAM",
+        "mobile": "87",
+        "bal": 1000,
+        "pass": "b",
+        "tran": [
+            "2024-07-27 15:03:46.265046 deposit 500,balance = 500",
+            "2024-07-27 15:03:46.266207 received from SAI, 500,balance = 9000"
+        ]
+    }
+}
